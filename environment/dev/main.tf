@@ -13,7 +13,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "nff" {
-    name="hello"
+    name="hellomyworld"
     location = "east us"
     tags = {
       owner="bikram"
